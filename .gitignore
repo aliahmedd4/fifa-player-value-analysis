@@ -1,0 +1,34 @@
+# Datasets
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+data/raw/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env/
+
+# Credentials / secrets
+.env
+*.env
+secrets.json
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
